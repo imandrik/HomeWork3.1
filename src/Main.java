@@ -3,7 +3,7 @@ public class Main {
         BonusMilesService service = new BonusMilesService();
         int priceTicket = 10_000;
         int miles = service.calculate(priceTicket);
-        System.out.println("Ваш начислено " + miles + " миль");
+        System.out.println("Вам начислено " + miles + " миль");
     }
 }
 
